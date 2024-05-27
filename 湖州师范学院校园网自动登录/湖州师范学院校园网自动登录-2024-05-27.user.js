@@ -52,7 +52,7 @@
             window.addEventListener('load', function() {
                 // 查找ID为username的输入框并修改其value属性
                 const usernameInput = document.getElementById('username');
-                const passwordInput = document.getElementById('password');
+                const passwordInput = document.getElementById('ppassword');
                 if (usernameInput && passwordInput) {
                     usernameInput.value = username;
                     passwordInput.value = password;
